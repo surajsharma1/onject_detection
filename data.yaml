@@ -1,0 +1,7 @@
+path: C:/Users/suraj/Documents/GitHub/licence_plate_detection/data  # Base directory for images and labels
+train: C:/Users/suraj/Documents/GitHub/licence_plate_detection/data/images/train # Path to training images
+val: C:/Users/suraj/Documents/GitHub/licence_plate_detection/data/images/val  # Path to validation images
+test: C:/Users/suraj/Documents/GitHub/licence_plate_detection/data/images/test # Optional: Path to test images (if any)
+
+nc: 1  # Number of classes (e.g., license plate)
+names: ['license_plate']  # List of class names
